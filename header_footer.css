@@ -1,7 +1,7 @@
 /* Add some padding on document's body to prevent the content
     to go underneath the header and footer */
     body{        
-        padding-top: 60px;
+        padding-top: 80px;
         padding-bottom: 40px;
     }
     .container{
