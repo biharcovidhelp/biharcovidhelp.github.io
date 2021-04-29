@@ -2,54 +2,15 @@
 <html>
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="style.css">
-   <script type="text/javascript" src="script.js"></script>
+   <link rel="stylesheet" href="slideshow.css">
+   <link rel="stylesheet" href="column_cards.css">
+   <script type="text/javascript" src="slideshow.js"></script>
 </head>
 
 <body>
 
-<h2 style="text-align: center;">Navodaya COVID Help</h2>
+<h2 style="text-align: center;">Bihar COVID Help</h2>
 
-<!-- Three columns -->
-<div class="row", style="align-content: center;">
-  <div class="column" onclick="openTab('b1');" style="background:green; text-align: left;">
-    Plasma
-  </div>
-  <div class="column" onclick="openTab('b2');" style="background:blue; text-align: left;">
-    Remdesivir
-  </div>
-  <div class="column" onclick="openTab('b3');" style="background:red; text-align: left;">
-    Hospital Beds
-  </div>
-  <div class="column" onclick="openTab('b4');" style="background:purple; text-align: left;">
-    Oxygen
-  </div>
-</div>
-
-<!-- Full-width columns: (hidden by default) -->
-<div id="b1" class="containerTab" style="display:none;background:green">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Plasma</h2>
-  <p>Authentic and verified sources for Plasma are listed below</p>
-</div>
-
-<div id="b2" class="containerTab" style="display:none;background:blue">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Remdesivir</h2>
-  <p>Authentic and verified sources for Remdesivir are listed below</p>
-</div>
-
-<div id="b3" class="containerTab" style="display:none;background:red">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Hospital Beds</h2>
-  <p>Authentic and verified sources for Hospital Beds are listed below</p>
-</div>
-
-<div id="b4" class="containerTab" style="display:none;background:purple">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  <h2>Oxygen</h2>
-  <p>Authentic and verified sources for Oxygen are listed below</p>
-</div>
 
 <h2 style="text-align: center;">Recent requests</h2>
 <div class="slideshow-container", style="align-content: center;">
@@ -100,28 +61,6 @@
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
-}
-</script>
 
 </body>
 </html> 
