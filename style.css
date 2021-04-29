@@ -30,10 +30,6 @@ body {
   float: left;
   width: 25%;
   padding: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
   text-align: center;
   font-size: 25px;
   cursor: pointer;
@@ -42,8 +38,6 @@ body {
 
 .containerTab {
   padding: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
   color: white;
 }
 
