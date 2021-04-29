@@ -5,8 +5,4 @@ function openTab(tabName) {
         x[i].style.display = "none";
     }
     document.getElementById(tabName).style.display = "block";
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "block";
-    }
-    document.getElementById(tabName).style.display = "none";
 }
