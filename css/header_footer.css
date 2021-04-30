@@ -9,6 +9,7 @@
         margin: 0 auto; /* Center the DIV horizontally */
     }
     .fixed-header, .fixed-footer{
+        font-family: Consolas;
         width: 100%;
         position: fixed;        
         background: #333;/*
