@@ -23,6 +23,7 @@
     }    
     /* Some more styles to beutify this example */
     nav a{
+        font-family: Consolas;
         color: #fff;
         text-decoration: none;
         padding: 7px 25px;
