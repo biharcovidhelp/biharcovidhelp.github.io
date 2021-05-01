@@ -3,5 +3,5 @@ table, th, td {
   border-collapse: collapse;
 }
 th, td {
-  padding: 5px;
+  padding: 10px 0px 5px 5px;
 }
