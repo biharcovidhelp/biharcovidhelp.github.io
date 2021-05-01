@@ -1,8 +1,7 @@
 .boxed {
   border-radius: 20px ;
   background-color: lightgrey;
-  width:90%;
+  width:100%;
   border: 2px solid green;
-  padding: 10px;
-  margin-left: 8%;
+  left: 0;
 }
