@@ -20,11 +20,15 @@
         top: 0;
         left: 0;
         right: 0;
+        padding-bottom: 5px;
     }
     .fixed-footer{
         bottom: 0;
         right: 0;
         left: 0;
+        text-align: center;
+        font-family: Consolas;
+        padding: 2px;
     }    
     /* Some more styles to beutify this example */
     nav a{
