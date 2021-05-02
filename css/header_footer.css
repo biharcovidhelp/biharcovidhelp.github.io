@@ -41,3 +41,30 @@
     .container p{
         line-height: 200px; /* Create scrollbar to test positioning */
     }
+    .container nav a:hover{
+        border: 1px solid white;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        color: #e66767;
+    }
+    .title a:hover{
+        border: 1px solid white;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        color: #e66767;
+        padding: 5px;
+    }
+
+    .title, .title a
+    {
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 30px;
+        font-weight: bold;
+    }
