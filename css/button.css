@@ -16,4 +16,54 @@
   background-color: #e66767;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float 5 columns side by side */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  text-align: center;
+  border-radius: 20px ;
+  border: 2px solid black;
+  color: #fff;
+  background-color: #2c3a47;
+}
+
+.card:hover{
+  color: #000;
+  background-color: #e66767;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
 
