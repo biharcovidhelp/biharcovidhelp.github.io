@@ -80,8 +80,8 @@
 
     .fixedButton{
     position: fixed;
-    bottom: 70px;
-    right: 7px;
+    bottom: 20px;
+    right: 0px;
     padding: 20px;
 }
 .roundedFixedBtn{
