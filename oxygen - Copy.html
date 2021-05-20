@@ -9,6 +9,7 @@
    <link rel="stylesheet" href="css/box.css">
    <link rel="stylesheet" href="css/table.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script type="text/javascript" src="js/searchFun.js"></script>
 </head>
 
 <body>
@@ -312,8 +313,8 @@
 	<div class="fixed-footer">
         <div class="container" style="text-align: center;">Copyright &copy; 2021.   Bihar COVID Help.</div>        
     </div>
-
-<script type="text/javascript">
+<!-- 
+<script>
   const searchFun = () => {
     let filter = document.getElementById('myInput').value.toUpperCase();
 
@@ -322,10 +323,19 @@
     let tr = myTable.getElementsByTagName('tr');
 
     for(var i=0; i<tr.length; i++){
-      let td = tr[i].getElementsByTagName('td')[1]
+      let td = tr[i].getElementsByTagName('td')[1];
+      if(td){
+        let textvalue = td.textContent || td.innerHTML;
+
+        if(textvalue.toUpperCase().indexOf(filter) > -1){
+          tr[i].style.display = "";
+        }else{
+          tr[i].style.display = "none";
+        }
+      }
     }
   }
-</script>
+</script> -->
 
 </body>
 </html> 
