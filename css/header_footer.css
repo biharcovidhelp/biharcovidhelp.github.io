@@ -48,7 +48,7 @@
         border-top-left-radius: 25px;
         border-bottom-right-radius: 25px;
         border-bottom-left-radius: 25px;
-        box-shadow: 0 2px 4px 0 white;
+        /*box-shadow: 0 2px 4px 0 white;*/
     }
     .container p{
         line-height: 200px; /* Create scrollbar to test positioning */
@@ -63,9 +63,9 @@
         box-shadow: 0 2px 4px 0 white;
 
     }
-     /*.container nav{
+     .container nav{
         text-align: center;
-     }*/
+     }
     .title a:hover{
         border: 1px solid white;
         border-top-right-radius: 25px;
@@ -77,13 +77,13 @@
         box-shadow: 0 2px 4px 0 white;
     }
     .title a{
-        border: 1px solid white;
+        /*border: 1px solid white;
         border-top-right-radius: 25px;
         border-top-left-radius: 25px;
         border-bottom-right-radius: 25px;
-        border-bottom-left-radius: 25px;
+        border-bottom-left-radius: 25px;*/
         padding: 5px;
-        box-shadow: 0 2px 4px 0 white;
+        /*box-shadow: 0 2px 4px 0 white;*/
         text-decoration: none;
         color: inherit;
         text-align: center;
