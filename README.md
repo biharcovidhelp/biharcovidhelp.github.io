@@ -1,5 +1,5 @@
 # biharcovidhelp.github.io
-![](https://visitor-badge.glitch.me/badge?page_id=smaxiso.smaxiso)
+![](https://visitor-badge.glitch.me/badge?page_id=biharcovidhelp.biharcovidhelp.github.io)
 
 reach us at <a href="https://biharcovidhelp.github.io" target="_blank">here</a>
 
